@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_daily_activity"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="Daily activity"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_register_sensor"
+        android:title="Register sensor "/>
+
+    <item
+        android:id="@+id/menu_unregister_sensor"
+        android:title="Unregister sensor"/>
+
+</menu>

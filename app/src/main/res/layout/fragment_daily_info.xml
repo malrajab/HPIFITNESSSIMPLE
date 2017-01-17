@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/calories"
+        style="@style/headFont"
+        android:text="@string/total_daily_calories"/>
+
+    <TextView
+        android:id="@+id/tv_daily_calories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calories"
+        tools:text="20002.213"/>
+
+    <TextView
+        android:id="@+id/steps"
+        style="@style/headFont"
+        android:layout_below="@id/tv_daily_calories"
+        android:text="@string/total_daily_steps"
+        />
+
+    <TextView
+        android:id="@+id/tv_daily_steps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/steps"
+        tools:text="200134"/>
+</RelativeLayout>

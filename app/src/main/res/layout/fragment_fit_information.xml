@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="6dp"
+                tools:context="com.example.kostya.googlefitapi.view.fit_view.FitInformationFragment">
+
+    <RelativeLayout
+        android:id="@+id/rl_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_background"
+        android:elevation="5dp"
+        android:padding="10dp"
+        android:paddingBottom="15dp">
+
+        <TextView
+            android:id="@+id/tv_dailySteps"
+            style="@style/headFont"
+            android:text=" Step\nCount"
+            />
+
+        <TextView
+            style="@style/headFont"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text=" Date"/>
+
+        <TextView
+            android:id="@+id/total_steps"
+            style="@style/headFont"
+            android:layout_alignParentRight="true"
+            android:text=" Total Steps"/>
+
+        <TextView
+            android:id="@+id/tv_total_steps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/total_steps"
+            tools:text="36000"/>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_fit_history"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_info"
+        android:background="@android:color/white"
+        android:padding="6dp"
+        tools:listitem="@layout/item_fit">
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

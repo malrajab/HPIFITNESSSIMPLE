@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HPI_FITNESS</string>
+
+    <string name="total_daily_calories">Today calories</string>
+    <string name="total_daily_steps">Today steps</string>
+    <string name="daily_paste">Daily history</string>
+
+</resources>
