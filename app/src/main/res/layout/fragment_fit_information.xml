@@ -17,20 +17,20 @@
         <TextView
             android:id="@+id/tv_dailySteps"
             style="@style/headFont"
-            android:text=" Step\nCount"
+            android:text="@string/step_count_String"
             />
 
         <TextView
             style="@style/headFont"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:text=" Date"/>
+            android:text="@string/date_labl"/>
 
         <TextView
             android:id="@+id/total_steps"
             style="@style/headFont"
             android:layout_alignParentRight="true"
-            android:text=" Total Steps"/>
+            android:text=" "/>
 
         <TextView
             android:id="@+id/tv_total_steps"

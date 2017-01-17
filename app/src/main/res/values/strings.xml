@@ -4,5 +4,7 @@
     <string name="total_daily_calories">Today calories</string>
     <string name="total_daily_steps">Today steps</string>
     <string name="daily_paste">Daily history</string>
+    <string name="step_count_String">I am interested in the Android Developer position at GalexE Solution ICIMS. My resume is enclosed for your review. Given my related experience and excellent achievements and capabilities, I would appreciate your consideration for this job opening. My skills are an ideal match for this position.  \t \tAt Leeds University, I worked as a software engineer and in Jan/2008, I was the lead system architect of Alumni sub-system. I was in charge of the designing a software that can be extendable, easily maintainable and well documented. The Alumni system was a layer that needs to communicate with the other university software that run on the main server as well as interface with the website and the backend database. I strongly believe that my experience is the exact match to the requirements of this job.   \tMy strong Java programming skills, Android experience, SQL, and different libraries and APIs, allow me to excel as Android Developer. I am certified Java professional. I have a strong C++ and Python coding skills. My knowledge and experience of the different technologies would be a very important asset when integrating mobile app with the different technologies at your company.</string>
+    <string name="date_labl">Date</string>
 
 </resources>
