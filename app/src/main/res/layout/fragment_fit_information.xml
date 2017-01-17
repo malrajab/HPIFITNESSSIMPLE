@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_below="@id/total_steps"
-            tools:text="36000"/>
+            tools:text="@string/in_label"/>
 
     </RelativeLayout>
 
