@@ -26,6 +26,10 @@ public class UserSessionManager {
     public static final String KEY_CURRENT_LAT = "CURRENT_LAT";
     // sharedpref user current longitude
     public static final String KEY_CURRENT_LONG = "CURRENT_LONG";
+
+
+    public static final String KEY_MILESTONES_TARGET = "MILESTONES_NUMBER";
+
     public static final String PREFER_NAME = "com.example.m_alrajab.hpifitnessapp.HPI_FITNESS_LOCAL_SESSION_FILE";
 
 
