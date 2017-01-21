@@ -96,8 +96,9 @@ public class UserSessionManager {
     }
 
 
-    public void setMilestomes(int b) {
-        pref.edit().putInt(KEY_MILESTONES_TARGET, b).commit();
+    // set milestones
+    public void setMilestomes(int milestone) {
+        pref.edit().putInt(KEY_MILESTONES_TARGET, milestone).commit();
     }
 
     @NonNull
