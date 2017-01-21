@@ -97,12 +97,12 @@ public class UserSessionManager {
 
 
     // set milestones
-    public void setMilestomes(int milestone) {
+    public void setMilestones(int milestone) {
         pref.edit().putInt(KEY_MILESTONES_TARGET, milestone).commit();
     }
 
     @NonNull
-    public int getMilestons() {
+    public int getMilestones() {
         return pref.getInt(KEY_MILESTONES_TARGET, 4);
     }
 
