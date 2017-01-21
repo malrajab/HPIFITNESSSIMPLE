@@ -96,6 +96,16 @@ public class UserSessionManager {
     }
 
 
+    public void setMilestomes(int b) {
+        pref.edit().putInt(KEY_MILESTONES_TARGET, b).commit();
+    }
+
+    @NonNull
+    public int getMilestons() {
+        return pref.getInt(KEY_MILESTONES_TARGET, 4);
+    }
+
+
     public void setKeyCurrentUserTarget(int b) {
         pref.edit().putInt(KEY_CURRENT_USER_TARGET, b).commit();
     }
